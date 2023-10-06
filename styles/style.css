@@ -44,18 +44,36 @@ body {
 
 .searchbar {
     grid-area: input;
+    justify-self: center;
 }
 
 .profile-options {
     grid-area: profile;
+    justify-self: center;
 }
 
 .greeting {
     grid-area: greeting;
+    margin-left: 4rem;
+}
+
+.account-name span {
+    font-weight: 1;
+    font-size: 1rem;
 }
 
 .project-options {
     grid-area: buttons;
+    justify-self: center;
+
+    display: flex;
+    gap: 1.25rem;
+}
+
+.project-options button {
+    background-color: white;
+    border: black solid 2px;
+    padding: .25rem;
 }
 
 .admin-nav {
