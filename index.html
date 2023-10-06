@@ -5,48 +5,194 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet'>
     <title>Admin Page Layout</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="header">
-            <div class="header-links"></div>
-            <div class="header-options"></div>
-        </div>
-        <div class="navbar">
-            <div class="nav-title">Dashboard</div>
-            <a href="#">Dashboard</a>
-            <a href="#">Home</a>
-            <a href="#">Profile</a>
-            <a href="#">Messages</a>
-            <a href="#">Tasks</a>
-            <a href="#">Communities</a>
-            <a href="#">Settings</a>
-            <a href="#">Support</a>
-            <a href="#">Privacy</a>
-        </div>
-        <div class="content">
-            <div class="projects">
-                <div class="content-title">Projects</div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
+    <div class="grid-container">
+        <header class="admin-header">
+                <div class="searchbar">
+                    <input type="search" id="search" />
+                </div>
+                <div class="profile-options">
+                    <div class="account-pic"></div>
+                    <h4 class="account-name">mauZzii</h4>
+                </div>
+                <div class="greeting">
+                    <div class="account-pic"></div>
+                    <h2 class="account-name">
+                        <span>Hi there,</span>mauZzii
+                    </h2>
+                </div>
+                <div class="project-options">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+        </header>
+        <nav class="admin-nav">
+            <div class="logo">mauZboard</div>
+            <ul class="navlinks">
+                <li>Home</li>
+                <li>Profile</li>
+                <li>Messages</li>
+                <li>History</li>
+                <li>Tasks</li>
+                <li>Community</li>
+            </ul>
+            <ul class="support">
+                <li>Settings</li>
+                <li>Support</li>
+                <li>Privacy</li>
+            </ul>
+        </nav>
+        <main class="admin-main">
+            <div class="dashboard">
+                <h2 class="dash-title">Recent Projects</h2>
+                <div class="project-container">
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Come up with something buzzworthy baseline big data, but let's circle back to that post launch, nor have bandwidth,
+                            so bake it in. What's our go to market strategy? cta increase the resolution, scale it up we need a larger print,
+                            or high-level. Bells and whistles quick sync i need to pee and then go to another meeting, nor moving the goalposts,
+                            or low-hanging fruit, but where the metal hits the meat.
+                        </p>
+                        <div class="card-buttons"></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Come up with something buzzworthy baseline big data, but let's circle back to that post launch, nor have bandwidth,
+                            so bake it in. What's our go to market strategy? cta increase the resolution, scale it up we need a larger print,
+                            or high-level. Bells and whistles quick sync i need to pee and then go to another meeting, nor moving the goalposts,
+                            or low-hanging fruit, but where the metal hits the meat.
+                        </p>
+                        <div class="card-buttons"></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Come up with something buzzworthy baseline big data, but let's circle back to that post launch, nor have bandwidth,
+                            so bake it in. What's our go to market strategy? cta increase the resolution, scale it up we need a larger print,
+                            or high-level. Bells and whistles quick sync i need to pee and then go to another meeting, nor moving the goalposts,
+                            or low-hanging fruit, but where the metal hits the meat.
+                        </p>
+                        <div class="card-buttons"></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Come up with something buzzworthy baseline big data, but let's circle back to that post launch, nor have bandwidth,
+                            so bake it in. What's our go to market strategy? cta increase the resolution, scale it up we need a larger print,
+                            or high-level. Bells and whistles quick sync i need to pee and then go to another meeting, nor moving the goalposts,
+                            or low-hanging fruit, but where the metal hits the meat.
+                        </p>
+                        <div class="card-buttons"></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Come up with something buzzworthy baseline big data, but let's circle back to that post launch, nor have bandwidth,
+                            so bake it in. What's our go to market strategy? cta increase the resolution, scale it up we need a larger print,
+                            or high-level. Bells and whistles quick sync i need to pee and then go to another meeting, nor moving the goalposts,
+                            or low-hanging fruit, but where the metal hits the meat.
+                        </p>
+                        <div class="card-buttons"></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Come up with something buzzworthy baseline big data, but let's circle back to that post launch, nor have bandwidth,
+                            so bake it in. What's our go to market strategy? cta increase the resolution, scale it up we need a larger print,
+                            or high-level. Bells and whistles quick sync i need to pee and then go to another meeting, nor moving the goalposts,
+                            or low-hanging fruit, but where the metal hits the meat.
+                        </p>
+                        <div class="card-buttons"></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Come up with something buzzworthy baseline big data, but let's circle back to that post launch, nor have bandwidth,
+                            so bake it in. What's our go to market strategy? cta increase the resolution, scale it up we need a larger print,
+                            or high-level. Bells and whistles quick sync i need to pee and then go to another meeting, nor moving the goalposts,
+                            or low-hanging fruit, but where the metal hits the meat.
+                        </p>
+                        <div class="card-buttons"></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Come up with something buzzworthy baseline big data, but let's circle back to that post launch, nor have bandwidth,
+                            so bake it in. What's our go to market strategy? cta increase the resolution, scale it up we need a larger print,
+                            or high-level. Bells and whistles quick sync i need to pee and then go to another meeting, nor moving the goalposts,
+                            or low-hanging fruit, but where the metal hits the meat.
+                        </p>
+                        <div class="card-buttons"></div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Come up with something buzzworthy baseline big data, but let's circle back to that post launch, nor have bandwidth,
+                            so bake it in. What's our go to market strategy? cta increase the resolution, scale it up we need a larger print,
+                            or high-level. Bells and whistles quick sync i need to pee and then go to another meeting, nor moving the goalposts,
+                            or low-hanging fruit, but where the metal hits the meat.
+                        </p>
+                        <div class="card-buttons"></div>
+                    </div>
+                </div>
             </div>
-            <div class="news">
-                <div class="content-title">Announcements</div>
-                <div class="content-title">Trending</div>
+        </main>
+        <section class="updates">
+            <div class="update-container">
+                <div class="announcement-card">
+                    <h3>Announcements</h3>
+                    <div>
+                        <h4>Site Maintenance</h4>
+                        <p>[phone rings, whispering] Dunder Mifflin, this is Erin... He's not available right now...</p>
+                    </div>
+                    <div>
+                        <h4>Community Share Day</h4>
+                        <p>People I respect, heroes of mine, would be Bob Hope... Abraham Lincoln, definitely. Bono. And probably God would be the fourth one.</p>
+                    </div>
+                    <div>
+                        <h4>Updated Privacy Policy</h4>
+                        <p>I am just as much of a boss as Michael and I can do anything that Michael can do. Alright? Who here believes that I have as much power as Michael?</p>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <h3>Trending Now</h3>
+                    <div class="trending-user">
+                        <img src="placeholder" alt="placeholder" class="trending-icon">
+                        <div class="trending-name">
+                            <h4>@Jim</h4>
+                            <p>Habitual Prankster</p>
+                        </div>
+                    </div>
+                    <div class="trending-user">
+                        <img src="placeholder" alt="placeholder" class="trending-icon">
+                        <div class="trending-name">
+                            <h4>@Michael</h4>
+                            <p>Regional Manager</p>
+                        </div>
+                    </div>
+                    <div class="trending-user">
+                        <img src="placeholder" alt="placeholder" class="trending-icon">
+                        <div class="trending-name">
+                            <h4>@Pam</h4>
+                            <p>Loving Mother</p>
+                        </div>
+                    </div>
+                    <div class="trending-user">
+                        <img src="placeholder" alt="placeholder" class="trending-icon">
+                        <div class="trending-name">
+                            <h4>@Jim</h4>
+                            <p>Assistant to @Michael</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="footer">mauZzii© - 2023</div>
+        </section>
     </div>
 </body>
 </html>
