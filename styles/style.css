@@ -90,8 +90,6 @@ body {
     overflow-y: auto;
     justify-items: center;
 
-    background-color: black;
-    color: white;
 }
 
 .logo {
@@ -129,7 +127,6 @@ body {
 .link-icon {
     height: 1.25rem;
     width: auto;
-    color: white;
 }
 
 .admin-main {
@@ -159,4 +156,31 @@ body {
 .updates {
     grid-area: updates;
     border-left: black solid 2px;
+}
+
+.update-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement-card h3 {
+    border-bottom: black solid 2px;
+    padding: .5rem;
+    text-align: center;
+}
+
+.announcement-card div {
+    padding: 1rem;
+    border-bottom: black solid 2px;
+}
+
+.trending-card h3 {
+    border-bottom: black solid 2px;
+    padding: .5rem;
+    text-align: center;
+}
+
+.trending-user {
+    padding: 1rem;
+    border-bottom: black solid 2px;
 }
